@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "8349202164",
+    "project_id": "circuitlogic-1347"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8349202164:android:d257b6d5fa2805a4",
+        "android_client_info": {
+          "package_name": "com.example.sarapavas.inicioproyfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8349202164-738n3vg65o28ph30qmthg1v6vhfl5lgk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sarapavas.inicioproyfinal",
+            "certificate_hash": "1B7556780B5646BD6F2B2A634482869A1CF279DE"
+          }
+        },
+        {
+          "client_id": "8349202164-gu7jv3jpj2tjv7u2tvc7mvheo762d0fi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVUmxjQEmX7vpY5qUF3maKf1b6uHdUs-c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

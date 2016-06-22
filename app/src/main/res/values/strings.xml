@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_id">1707771709488643</string>
+    <string name="app_name">Circuit Logic</string>
+    <string name="inicioSesion">Iniciar Sesión</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">E-mail</string>
+    <string name="usuario">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="crearCuenta">Crear Cuenta</string>
+    <string name="inicioText">Inicia Sesion con Facebook, Google o con tu Usuario Circuit Logic</string>
+    <string name="registro">Registro</string>
+    <string name="sesiongooglet">Inicia sesión con Google+</string>
+    <string name="sesionfacebookt">Inicia sesión con Facebook</string>
+    <string name="sesionCorreot">Registrate sesión con tu e-mail</string>
+    <string name="nombreUsuario"> Nombre de Usuario</string>
+    <string name="continuar">Continuar</string>
+    <string name="google_play_service_version">AIzaSyCPper3Uvba-wUZxp45_jdHfLGoPjPKlhY</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Sign-in status messages -->
+    <string name="signed_in_fmt">Name: %s</string>
+    <string name="email">E-mail: %s</string>
+
+    <string name="signed_out">Signed out</string>
+
+    <string name="loading">Loading…</string>
+
+    <!-- Button labels -->
+    <string name="sign_out">Sign Out</string>
+    <string name="disconnect">Disconnect</string>
+</resources>

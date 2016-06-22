@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/logic</item>
+        <item name="colorPrimaryDark">@color/logic</item>
+        <item name="colorAccent">@color/logic</item>
+    </style>
+    <style name="myTextStyle" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:typeface">serif</item>
+
+    </style>
+    <style name="myTextStyle.grande">
+        <item name="android:textSize">45dp</item>
+    </style>
+    <style name="myTextStyle.pequeno">
+        <item name="android:textSize">10dp</item>
+    </style>
+    <style name="myTextStyle.mediano">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+
+</resources>
