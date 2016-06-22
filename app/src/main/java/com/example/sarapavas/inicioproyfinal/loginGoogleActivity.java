@@ -206,7 +206,7 @@ session = new UserSessionManager(getApplicationContext());
                     public void onResult(Status status) {
                         // [START_EXCLUDE]
                         updateUI(false);
-                        // [END_EXCLUDE]
+                        // [END_EXFCLUDE]
                     }
                 });
     }

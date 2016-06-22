@@ -55,7 +55,6 @@ public class LoginFacebokFragment extends Fragment {
                 @Override
                 public void run() {
                     Intent intent = new Intent(getActivity(), MainActivity.class);
-                    intent.putExtra("sesion","f");
                     startActivity(intent);
                 }
             };
@@ -87,13 +86,13 @@ public class LoginFacebokFragment extends Fragment {
         accessTokenTracker = new AccessTokenTracker() {
             @Override
             protected void onCurrentAccessTokenChanged(AccessToken oldAccessToken, AccessToken currentAccessToken) {
+
             }
         };
         profileTracker =new ProfileTracker() {
             @Override
             protected void onCurrentProfileChanged(Profile oldProfile, Profile newProfile) {
                 displayMessage(newProfile);
-
             }
         };
 
@@ -110,8 +109,6 @@ public class LoginFacebokFragment extends Fragment {
         loginButton.setReadPermissions("user_friends");
         loginButton.setFragment(this);
         loginButton.registerCallback(callbackManager, callback);
-
-        if(loginButton.out)
 
     }
 

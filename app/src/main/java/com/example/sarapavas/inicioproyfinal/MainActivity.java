@@ -25,6 +25,12 @@ import android.widget.TextView;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.FragmentTransaction;
 import android.widget.Toast;
+
+import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.ResultCallback;
+import com.google.android.gms.common.api.Status;
+
 import java.util.ArrayList;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -35,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     TextView textView;
     Button boton, bOnOff, bCableComp;
     LinearLayout linerLa;
-
+    private GoogleApiClient mGoogleApiClient;
     //   ScaleGestureDetector SGD;
 
 
@@ -1355,7 +1361,6 @@ public class MainActivity extends AppCompatActivity {
     public void signOut(){
         UserSessionManager session = new UserSessionManager(getApplicationContext());
         session.logoutUser();
-        
        }
 
 }
