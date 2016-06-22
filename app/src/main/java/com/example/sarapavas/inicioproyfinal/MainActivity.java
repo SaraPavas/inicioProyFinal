@@ -1362,5 +1362,62 @@ public class MainActivity extends AppCompatActivity {
         UserSessionManager session = new UserSessionManager(getApplicationContext());
         session.logoutUser();
        }
+    public void conexionesOriginales() {
+
+        for (int i = 0; i < 63; i++) {
+            for (int m = 0; m < 5; m++) {
+
+                ABCDE[i][m].setConexion(i + 2);
+                ABCDE[i][m].setConexionant(i);
+                ABCDE[i][m].setnHuecos(5);
+                FGHIJ[i][m].setConexion(i + 65);
+                FGHIJ[i][m].setConexionant(i + 65);
+                FGHIJ[i][m].setnHuecos(5);
+            }
+        }
+        for(int j = 0; j < 50; j++) {
+            for (int k = 0; k < 2; k++) {
+                VCC[j][k].setConexion(k + 128);
+                VCC[j][k].setConexionant(k + 128);
+                VCC[j][k].setnHuecos(50);
+                GND[j][k].setConexion(k + 130);
+                GND[j][k].setConexionant(k + 130);
+                GND[j][k].setnHuecos(50);
+            }
+        }
+
+
+        for(int i=0; i<15; i++){
+
+            leds[i].setConexion(i + 132);
+            leds[i].setnHuecos(1);
+
+            for(int j=0; j<3; j++){
+
+                switchs[i][j].setConexion(i+147);
+                switchs[i][j].setnHuecos(3);
+                if(i<2){
+
+                    relojs[i][j].setConexion(i + 162);
+                    relojs[i][j].setnHuecos(3);
+                }
+            }
+        }
+
+        for(int i=0; i<21; i++){
+
+            sieteseg1[i].setConexion(i + 164);
+            sieteseg1[i].setnHuecos(1);
+            if(i<5){
+
+                vcc1[i].setConexion(1);
+                vcc1[i].setnHuecos(5);
+                gnd1[i].setConexion(0);
+                gnd1[i].setnHuecos(5);
+            }
+        }
+
+
+    }
 
 }

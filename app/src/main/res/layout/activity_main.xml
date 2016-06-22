@@ -240,6 +240,26 @@
                                 android:layout_marginLeft="615dp"
 
                                 />
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/or"
+                                android:id="@+id/IcompuertaOr"
+                                android:layout_marginTop="253dp"
+                                android:layout_marginLeft="615dp"
+                                android:visibility="invisible"
+
+                                />
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/not"
+                                android:id="@+id/IcompuertaNot"
+                                android:layout_marginTop="253dp"
+                                android:layout_marginLeft="615dp"
+                                android:visibility="invisible"
+
+                                />
                         </RelativeLayout>
 
                     </LinearLayout>
@@ -250,6 +270,22 @@
                         android:orientation="horizontal"
 
                         >
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Activar And"
+                            android:id="@+id/botonAnd"
+                            />
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Activar Or"
+                            android:id="@+id/botonOr"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Activar Not"
+                            android:id="@+id/botonNot"/>
 
                         <TextView
                             android:layout_width="match_parent"
